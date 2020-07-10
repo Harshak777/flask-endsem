@@ -1,0 +1,33 @@
+body {background-image: url("boo.gif");
+    background-repeat: no-repeat;
+    background-size: 1600px 750px;
+    }
+h1{
+    background-color: #d3e5f2;
+    border-width:3px;
+    text-align: center;
+    border-style:solid;
+    border-color:black;
+}
+h3{
+    background-color: #fffa;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+}
+.forimg {
+    width:100%;
+    margin:0 auto;
+}
+.left {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    left: 0;
+}
+.right {
+    height: 100%;
+    width: 75%;
+    position: fixed;
+    right: 0;
+}

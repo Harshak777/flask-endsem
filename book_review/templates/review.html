@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Book Review</title>
+<link rel="stylesheet" href="{{url_for('static',filename='review.css')}}">
+{% endblock %}
+
+{% block body %}
+<div class="index">
+    <h1>{{w}}</h1>
+    <div class="row">
+      <div class="col-sm-4">
+        <img class="leftm" src={{src}}>
+      </div>
+      <div class="col-sm-8">
+        <div style="background-color:pink;"><h3>A Breif Summary:</h3></div>
+        <h3>{{q}}</h3>
+      </div>
+    </div>
+    
+</div>
+
+{% endblock %}

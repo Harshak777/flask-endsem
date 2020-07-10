@@ -1,0 +1,50 @@
+body {background-image: url("fulltreekidfinal.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 750px;
+    display: block;
+    text-align: center;
+    }
+    .search {
+        width: 50%;
+        margin: auto;
+        padding: 10px 10px;
+        box-sizing: border-box;
+        border: 3px solid rgb(124, 242, 250);
+        text-align: center;
+border-radius: 10px;
+font-family: "Lucida Console";
+font-style: oblique;
+font-weight: 400;
+font-variant: small-caps;
+background-color: rgb(160, 178, 214);
+    }
+    .quote{
+        width: 50%;
+        margin: auto;
+        padding: 50px 30px;
+        box-sizing: border-box;
+        border: 3px solid rgb(124, 242, 250);
+        text-align: center;
+border-radius: 10px;
+font-family: "Lucida Console", Courier, monospace;
+font-style: oblique;
+font-weight: 900;
+font-variant: small-caps;
+background-color: rgb(160, 178, 214);
+    }
+    .index{
+        padding: 100px 0;
+  
+    }
+    input[type=text] {
+        width: 50%;
+        padding: 19px 20px;
+        box-sizing: border-box;
+        border: 3px solid rgb(124, 242, 250);
+        text-align: center;
+border-radius: 10px;
+background-color: rgb(215, 221, 233);
+      }
+   
+    
+    

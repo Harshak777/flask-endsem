@@ -1,0 +1,21 @@
+body {background-image: url("lib.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 750px;
+    }
+    table {
+        border-collapse: collapse;
+        background-color: #fffffffa;
+      }
+      th {
+        background-color: rgba(134, 50, 243, 0.466);
+        color: white;
+        font-size: large;
+            height: 40px;
+      }
+     tr{
+      height: 30px;
+     }
+      tr:hover td {
+        background: rgb(180, 233, 233);
+    }
+tr:nth-child(even) {background-color: #f2f2f2;}

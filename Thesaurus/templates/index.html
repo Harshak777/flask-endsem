@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Thesaurus</title>
+{% endblock %}
+
+{% block body %}
+
+<div class="index">
+    <form action="{{ url_for('thesaurus') }}" method="post">
+        <input type="text" name="projectFilepath">
+        <input type="submit" value="search">
+    </form>
+</div>
+
+{% endblock %}

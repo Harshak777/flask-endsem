@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Dictionary</title>
+{% endblock %}
+
+{% block body %}
+
+<div class="index">
+    <h1>{{name+":"}}</h1>
+    {% for item in data %}
+    <h3>{{item}}</h3>
+    {% endfor %}
+</div>
+
+{% endblock %}

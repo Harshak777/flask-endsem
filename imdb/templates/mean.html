@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Movie Finder</title>
+{% endblock %}
+
+{% block body %}
+
+<div class="index">
+    {% for item in data %}
+            <tr>
+                <td>{{item}}</td><br/>
+            </tr>
+        {% endfor %}
+</div>
+
+{% endblock %}

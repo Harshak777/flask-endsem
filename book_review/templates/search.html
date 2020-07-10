@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Book Review</title>
+<link rel="stylesheet" href="{{url_for('static',filename='search.css')}}">
+{% endblock %}
+
+{% block body %}
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Review</th>
+        </tr>
+        {% for item in data %}
+            <tr>
+                <td>
+                    <a href="/bookreview/{{item[3]}}">{{item[0]}}</a>
+                </td>
+                <td>{{item[1]}}</td>
+                <td>{{item[2]}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    
+</div>
+
+{% endblock %}

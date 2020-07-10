@@ -1,0 +1,16 @@
+imdb/env
+imdb/.vscode
+imdb/imdb.zip
+Thesaurus/env
+Thesaurus/.vscode
+Thesaurus/thesaurus.zip
+Dictionary/env
+Dictionary/.vscode
+Dictionary/dictionary.zip
+Dictionary/env
+Dictionary/.vscode
+Dictionary/dictionary.zip
+book_review/env
+book_review/.vscode
+book_review/ngrok.exe
+book_review/__pycache__/

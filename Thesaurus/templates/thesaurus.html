@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Thesaurus</title>
+{% endblock %}
+
+{% block body %}
+
+<div class="index">
+    <h1>{{z}}</h1>
+    <table>
+        <tr>
+            <th>{{x[0]}}</th>
+        </tr>
+        {% for item in c %}
+            <tr>
+                <td>{{item}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <table>
+        <tr>
+            <th>{{x[1]}}</th>
+        </tr>
+        {% for item in v %}
+            <tr>
+                <td>{{item}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+
+{% endblock %}
